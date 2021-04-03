@@ -2291,6 +2291,11 @@ input, select, textarea {
 				margin-left: 300px;
 			}
 
+			#main > section.one {
+				background-color: #81918E;
+				background-image: url("../../images/banner.jpg");
+			}
+
 	}
 
 /* Normal */
@@ -2305,6 +2310,11 @@ input, select, textarea {
 
 			#main section.cover {
 				padding: 5em 0;
+			}
+
+			#main > section.one {
+				background-color: #81918E;
+				background-image: url("../../images/banner2.jpg");
 			}
 
 	}
@@ -2372,6 +2382,11 @@ input, select, textarea {
 
 			#main {
 				margin-left: 20%;
+			}
+
+			#main > section.one {
+				background-color: #81918E;
+				background-image: url("../../images/banner.jpg");
 			}
 
 	}
