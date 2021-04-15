@@ -21,7 +21,7 @@ function myFunction(arr) {
             out += '<div class="col-4 col-12-mobile">';
             console.log(i, j, arr[i][j].name);
             out += '<article class="item"><header><h3><a href="' + 
-                    arr[i][j].url + '">' + arr[i][j].name + 
+                    arr[i][j].html_url + '">' + arr[i][j].name + 
                     '</a></h3><ul id="portfolio_list">' + arr[i][j].description + 
                     '</ul></header></article></div><br>';
         }
