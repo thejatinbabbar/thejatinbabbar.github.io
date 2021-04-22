@@ -16,16 +16,30 @@ function myFunction(arr) {
     var out = '';
     var i;
     for (i = 0; i < arr.length; i++) {
-        out += '<div class="col-4 col-12-mobile">';
+        // out += '<div class="col-4 col-12-mobile">';
         for (j = 0; j < arr[i].length; j++) {
-            out += '<div class="col-4 col-12-mobile">';
+            // out += '<div class="row">';
             console.log(i, j, arr[i][j].name);
-            out += '<article class="item"><header><h3><a href="' + 
-                    arr[i][j].html_url + '">' + arr[i][j].name + 
-                    '</a></h3><ul id="portfolio_list">' + arr[i][j].description + 
-                    '</ul></header></article></div><br>';
+            out += '<div class="col-4 col-12-mobile">';
+            out += '<article class="item">';
+            out += '<header>';
+            out += '<h3>';
+            out += '<a href="';
+            out += arr[i][j].html_url;
+            out += '">';
+            out += arr[i][j].name;
+            out += '</a>';
+            out += '</h3>';
+            out += '<ul id="portfolio_list">';
+            out += arr[i][j].description;
+            out += '</ul>';
+            out += '</header>';
+            out += '</article>';
+            out += '</div>';
+            out += '<br>';
+            // out += '</div>';
         }
-        out += '</div>';
+        // out += '</div>';
     }
     document.getElementById("repos").innerHTML = out;
 }

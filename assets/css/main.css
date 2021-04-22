@@ -2248,7 +2248,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				/* background-image: url("../../images/banner.jpg"); */
 			}
 
 			#main > section.two {
@@ -2261,6 +2261,11 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
+			}
+
+			#widescreenintro {
+				color: black;
+				padding: 0 25% 0 25%;
 			}
 
 /* Wide */
@@ -2296,6 +2301,11 @@ input, select, textarea {
 				background-image: url("../../images/banner.jpg");
 			}
 
+			#widescreenintro {
+				color: black;
+				padding: 0 20% 15% 0;
+			}
+
 	}
 
 /* Normal */
@@ -2314,7 +2324,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner2.jpg");
+				/* background-image: url("../../images/banner2.jpg"); */
 			}
 
 	}
@@ -2588,6 +2598,11 @@ input, select, textarea {
 					padding: 4em 0;
 				}
 
+				#main > section.one {
+					background-color: #81918E;
+					background-image: url("../../images/banner2.jpg");
+				}
+
 	}
 
 /* Mobile */
@@ -2630,6 +2645,16 @@ input, select, textarea {
 				#main section.cover header {
 					padding: 0 1em;
 				}
+			
+			#main > section.one {
+				background-color: #81918E;
+				background-image: url("../../images/banner2.jpg");
+			}
+
+			#widescreenintro {
+				color: black;
+				padding: 0 5% 20% 10%;
+			}
 
 		/* Footer */
 
